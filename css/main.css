@@ -18,8 +18,8 @@ html {
   padding:1.5rem;
 }
 main {
-  width: 80vw;
-  margin: 0 auto;
+  grid: auto 1fr auto / repeat(5, 1fr);
+  min-height: 100vh;
   display:grid;
   grid-template-columns: 150px 1fr;
   grid-template-rows: 50px 1fr 50px;
