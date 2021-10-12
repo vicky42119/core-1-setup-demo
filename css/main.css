@@ -24,8 +24,6 @@ main {
   grid: gap 20px;
 }
 
-#item1 { grid-column: 2;
-         grid-row-start: 1; grid-row-end: 4; }
 
 
 
