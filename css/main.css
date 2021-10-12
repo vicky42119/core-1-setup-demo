@@ -23,8 +23,13 @@ main {
   display:grid;
   grid-template-columns: repeat(1fr 2fr);
   grid-auto-rows: repeat(400px, 400px);
-  grid: gap 20px;;
-}
+  grid: gap 20px;
+
+aside {
+  grid-column: 1;
+  grid-row: 2;
+}  
+
 
 
 
